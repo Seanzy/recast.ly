@@ -1,9 +1,9 @@
 var VideoList = (props) => (
   <div className="video-list">
-    {props.videos.map(video => 
+    {props.videos.map((video, index) => 
       //map for every item in props 
       //pass in each item of props into videoListEntry
-      <VideoListEntry video={video} />
+      <VideoListEntry video={video} key={index} />
     )}
   </div>
 );

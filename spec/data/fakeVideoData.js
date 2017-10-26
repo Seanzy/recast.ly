@@ -1,4 +1,5 @@
 // A simplified version of `exampleVideoData` to use for tests
+// props.video.snippet.thumbnails.default.url
 window.fakeVideoData = [{
   etag: 'L332gQTY',
   id: {
